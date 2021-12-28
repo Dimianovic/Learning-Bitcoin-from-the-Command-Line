@@ -170,7 +170,7 @@ bitcoinrpc_call(rpc_client, rpc_method, btcresponse, &btcerror);
 
 if (btcerror.code != BITCOINRPCE_OK) {
 
-printf("Error: listunspent error code %d [%s]\n", btcerror.code,btcerror.msg);
+  printf("ERROR: listunspent error code %d [%s]\n", btcerror.code,btcerror.msg);
 
   exit(-1);
 
