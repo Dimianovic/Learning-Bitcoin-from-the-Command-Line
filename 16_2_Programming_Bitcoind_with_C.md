@@ -249,7 +249,7 @@ rpc_method = bitcoinrpc_method_init(BITCOINRPC_METHOD_CREATERAWTRANSACTION);
 ```
 However, now you must feed it your parameters. This simply done with `bitcoinrpc_method_set_params`:
 ```
-if (bitcoinrpc_method_set_params(rpc_method, params) != BITCOINRPCE_OK) {
+if (bitcoinrpc_method_set_params(rpc_method, params) != BITCOINRPC_OK) {
 
   fprintf (stderr, "Error: Could not set params for createrawtransaction");
 
