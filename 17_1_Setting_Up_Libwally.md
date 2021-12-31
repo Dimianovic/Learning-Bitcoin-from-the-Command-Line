@@ -17,6 +17,10 @@ You can then download Libwally from its Git repo:
 ```
 $ git clone https://github.com/ElementsProject/libwally-core
 ```
+Next, change into the newly created libwally directory:
+```
+$ cd libwally-core
+```
 Afterward, you can begin the configuration process:
 ```
 $ ./tools/autogen.sh
