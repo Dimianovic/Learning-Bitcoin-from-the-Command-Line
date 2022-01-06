@@ -68,7 +68,7 @@ The main functions are:
 A few BIP39 mnemonic-word functions were just overviewed in [§17.2: Using BIP39 in Libwally](17_2_Using_BIP39_in_Libwally.md):
 
    * `bip39_get_languages` — See a list of supported languages
-   * `bit39_get_word` — Retrieve a specific word from a language's word list
+   * `bip39_get_word` — Retrieve a specific word from a language's word list
    * `bip39_get_wordlist` — See a list of words for a language
    
 ## Use PSBT Functions
